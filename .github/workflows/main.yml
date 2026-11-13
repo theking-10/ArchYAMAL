@@ -1,0 +1,17 @@
+name: Mi primer GitHub Action
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  ejecutar:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v4
+
+      - name: Mostrar mensaje
+        run: echo "Mi archivo YAML funciona correctamente"
