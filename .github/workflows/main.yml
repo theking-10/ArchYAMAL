@@ -14,4 +14,4 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Mostrar mensaje
-        run: echo "Mi archivo YAML funciona correctamente"
+        run: echo "Archivo YAML CORRECTO RAMA"
